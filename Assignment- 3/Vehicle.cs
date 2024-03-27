@@ -17,6 +17,10 @@ public class Vehicle
 
     public virtual void DisplayDetails()
     {
-        Console.WriteLine($"Model: {Model}, Manufacturer: {Manufacturer}, Year: {Year}, Rental Price: {RentalPrice}");
+        Console.WriteLine($"Model: {Model}");
+        Console.WriteLine($"Manufacturer: {Manufacturer}");
+        Console.WriteLine($"Year: {Year}");
+        Console.WriteLine($"Rental Price: {RentalPrice}");
     }
+
 }

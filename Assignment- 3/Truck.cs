@@ -18,6 +18,9 @@ public class Truck : Vehicle
     public override void DisplayDetails()
     {
         base.DisplayDetails();
-        Console.WriteLine($"Capacity: {Capacity}, Truck Type: {TruckType}, Four-Wheel Drive: {FourWheelDrive}");
+        Console.WriteLine($"Capacity: {Capacity}");
+        Console.WriteLine($"Truck Type: {TruckType}");
+        Console.WriteLine($"Four Wheel Drive: {FourWheelDrive}");
     }
+
 }

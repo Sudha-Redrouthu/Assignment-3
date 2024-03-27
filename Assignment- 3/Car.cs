@@ -20,6 +20,10 @@ public class Car : Vehicle
     public override void DisplayDetails()
     {
         base.DisplayDetails();
-        Console.WriteLine($"Seats: {Seats}, Engine Type: {EngineType}, Transmission: {Transmission}, Convertible: {Convertible}");
+        Console.WriteLine($"Seats: {Seats}");
+        Console.WriteLine($"Engine Type: {EngineType}");
+        Console.WriteLine($"Transmission: {Transmission}");
+        Console.WriteLine($"Convertible: {Convertible}");
     }
+
 }

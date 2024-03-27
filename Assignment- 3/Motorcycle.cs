@@ -18,6 +18,9 @@ public class Motorcycle : Vehicle
     public override void DisplayDetails()
     {
         base.DisplayDetails();
-        Console.WriteLine($"Engine Capacity: {EngineCapacity}, Fuel Type: {FuelType}, Has Fairing: {HasFairing}");
+        Console.WriteLine($"Engine Capacity: {EngineCapacity}");
+        Console.WriteLine($"Fuel Type: {FuelType}");
+        Console.WriteLine($"Has Fairing: {HasFairing}");
     }
+
 }
