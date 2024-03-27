@@ -7,9 +7,9 @@ class Program
     static void Main(string[] args)
     {
         // Create instances of each vehicle type
-        Car car = new Car("Model S", "Tesla", 2020, 150, 5, "Electric", "Automatic", true);
-        Truck truck = new Truck("F-150", "Ford", 2018, 200, 1000, "Pickup", true);
-        Motorcycle motorcycle = new Motorcycle("Ninja", "Kawasaki", 2021, 100, 650, "Petrol", true);
+        Car car = new Car("Model 251", "Toyota", 2024, 150, 5, "Electric", "Automatic", true);
+        Truck truck = new Truck("Ford Focus", "Ford", 2019, 150, 1000, "Pickup", true);
+        Motorcycle motorcycle = new Motorcycle("S-351", "Mitsubishi", 2022, 100, 650, "Petrol", true);
 
         // Create an instance of the RentalAgency
         RentalAgency rentalAgency = new RentalAgency();
@@ -28,7 +28,7 @@ class Program
         int rentalDays = 5; // Example: renting the car for 5 days. Adjust this value as needed.
 
         rentalAgency.RentVehicle(car, rentalDays);
-        Console.WriteLine($"Total Revenue: {rentalAgency.TotalRevenue}");
+        Console.WriteLine($"Total Revenue: {rentalAgency.TotalRevenue}\n");
 
         // Example of removing a vehicle from the fleet
         rentalAgency.RemoveVehicle(truck);
